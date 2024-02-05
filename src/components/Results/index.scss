@@ -1,0 +1,119 @@
+.page {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+
+.heading {
+  position: relative;
+    width: 65%;
+    top: 80px;
+    left: 400px;
+    display: inline-flex;
+    align-content: stretch;
+    align-items: center;
+
+  h1 {
+    font-family: "DM Sans";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.5px;
+    left: 57px;
+    position: relative;
+  }
+
+  img{
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.13);
+    height: 90px;
+    width: 90px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+
+}
+
+.results-section {
+  position: relative;
+    width: 65%;
+    height: 225px;
+    top: 75px;
+    left: 400px;
+    display: block;
+    align-content: stretch;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.13);
+
+    .items {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h2 {
+      font-family: 'DM Sans';
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 39px;
+      top: 15px;
+    left: 48px;
+    position: relative;
+    }
+}
+
+
+.chart-section {
+  position: relative;
+    width: 65%;
+    height: 381px;
+    top: 100px;
+    left: 400px;
+    display: block;
+    align-content: stretch;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.13);
+
+    h2 {
+      font-family: 'DM Sans';
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 39px;
+      top: 15px;
+    left: 48px;
+    position: relative;
+    }
+
+    img {
+      position: absolute;
+      top: 20px;
+      right: 50px;
+    }
+
+}
+
+
+.download {
+  position: relative;
+    width: 15%;
+    height: 51px;
+    top: 117px;
+    left: 400px;
+    font-family: 'Raleway';
+    border-radius: 5px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #FFD9E3;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
