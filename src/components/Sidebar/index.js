@@ -30,12 +30,12 @@ const Sidebar = () => (
         <span>Designs</span>
         <div className='right-chevron'><img src={RightChevron} alt=''/></div>
       </NavLink>
-      <NavLink exact='true' activeclassname='active' className='setup-link' to='/'>
+      <NavLink exact='true' activeclassname='active' className='setup-link' to='/setup'>
       <div className='menu-logo'><img src={SetupIcon} alt='setup' /></div>
         <span>Setup</span>
         <div className='right-chevron'><img src={RightChevron} alt=''/></div>
       </NavLink>
-      <NavLink exact='true' activeclassname='active' className='users-link' to='/'>
+      <NavLink exact='true' activeclassname='active' className='users-link' to='/manage-users'>
       <div className='menu-logo'><img src={UsersIcon} alt='users' /></div>
         <span>Users</span>
         <div className='right-chevron'><img src={RightChevron} alt=''/></div>

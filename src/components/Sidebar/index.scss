@@ -38,13 +38,17 @@ nav {
     text-decoration:none;
     border-radius: 4px;
 
-    &:hover, &:focus {
+    &:hover, &:focus{
       background-color: #FFEBEF;
       color: #712E49;
       img{
         filter: brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(4299%) hue-rotate(288deg) brightness(93%) contrast(87%);
       }
+
+      
     }
+
+  
 
     .menu-logo {
       position: absolute;
@@ -61,6 +65,14 @@ nav {
     
   
   }
+
+  a.active {
+    background-color: #FFEBEF;
+    color: #712E49;
+  img{
+    filter: brightness(0) saturate(100%) invert(21%) sepia(11%) saturate(4299%) hue-rotate(288deg) brightness(93%) contrast(87%);
+  }
+}
 
 }
 
