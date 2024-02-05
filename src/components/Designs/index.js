@@ -1,6 +1,8 @@
 
 import './index.scss'
 import ClientLogo from '../../assets/images/client_logo.png'
+import Tab from './Tab'
+import Chatbot from '../../assets/images/chatbot.png'
 
 
 const Designs = () => {
@@ -15,14 +17,15 @@ const Designs = () => {
       </div>
 
 
-      <div className='results-section'>
-        
-      </div>
+    <div className='tabArea'>
+      <Tab />
+    </div>
 
-
-      <div className='chart-section'>
-        
-      </div>
+    <div className='chatbotarea'>
+      <h2>Preview</h2>
+      <img src={Chatbot} />
+    </div>
+    
 
     </div>
   );

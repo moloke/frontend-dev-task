@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.scss'
+import './resultsindex.scss'
 import ClientLogo from '../../assets/images/client_logo.png'
 import DisplayResults from './DisplayResults'
 import DisplayChart from './DisplayChart'
